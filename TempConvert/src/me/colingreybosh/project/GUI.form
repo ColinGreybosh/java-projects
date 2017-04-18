@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="me.colingreybosh.project.GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="15" y="14" width="300" height="160"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <enabled value="true"/>
+      <foreground color="-13816528"/>
+      <minimumSize width="300" height="160"/>
+      <name value="Temperature Converter"/>
+      <preferredSize width="300" height="160"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1f94a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Semibold" size="17" style="1"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="&lt;html&gt;&lt;u&gt;Temperature Conversion Calculator&lt;/u&gt;&lt;/html&gt;"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="201f5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="2" bottom="5" right="4" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Historic" size="14"/>
+          <foreground color="-1"/>
+          <minimumSize width="59" height="30"/>
+          <text value="Fahrenheit:"/>
+        </properties>
+      </component>
+      <component id="7669" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="2" bottom="5" right="4" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Historic" size="14"/>
+          <foreground color="-1"/>
+          <maximumSize width="40" height="30"/>
+          <minimumSize width="40" height="30"/>
+          <text value="Celsius:"/>
+        </properties>
+      </component>
+      <component id="406bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="2" bottom="5" right="4" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Historic" size="14"/>
+          <foreground color="-1"/>
+          <maximumSize width="35" height="30"/>
+          <minimumSize width="35" height="30"/>
+          <text value="Kelvin:"/>
+        </properties>
+      </component>
+      <component id="e4b8d" class="javax.swing.JFormattedTextField" binding="celsiusField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-12236470"/>
+          <caretColor color="-1"/>
+          <font name="Segoe UI" size="12"/>
+          <foreground color="-1"/>
+          <margin top="2" left="4" bottom="2" right="4"/>
+          <minimumSize width="6" height="30"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="a5c54" class="javax.swing.JFormattedTextField" binding="kelvinField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-12236470"/>
+          <caretColor color="-1"/>
+          <editable value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <font name="Segoe UI" size="12"/>
+          <foreground color="-1"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="2" left="4" bottom="2" right="4"/>
+          <minimumSize width="6" height="30"/>
+          <text value="273.15"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="12bf2" class="javax.swing.JFormattedTextField" binding="fahrenheitField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-12236470"/>
+          <caretColor color="-1"/>
+          <font name="Segoe UI" size="12"/>
+          <foreground color="-1"/>
+          <margin top="2" left="4" bottom="2" right="4"/>
+          <minimumSize width="6" height="30"/>
+          <text value="32"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="e68b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="2" bottom="5" right="2" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Light" size="13" style="2"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Just press enter to convert!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,1 @@
+package me.colingreybosh.examples;import java.util.Scanner;public class Main{public static void main(String[] args){System.out.println("Please enter your name");Scanner inputScanner = new Scanner(System.in);String firstName = inputScanner.next();String lastName = inputScanner.next();System.out.println(firstName+" "+lastName);}}
